@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#141416">
+  <meta name="description" content="Kyokushin karate övvizsga-felkészítő: vizsgaanyag övenként, technikák, katák, japán kifejezések, kvíz, edzések.">
+  <title>Kyokushin Karate – Övvizsga-felkészítő</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23141416'/%3E%3Ccircle cx='50' cy='50' r='34' fill='%23d7192a'/%3E%3Ctext x='50' y='64' font-size='40' text-anchor='middle' fill='white' font-family='serif'%3E%E6%A5%B5%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="felso">
+    <a id="vissza-gomb" class="kor-gomb" href="#" aria-label="Vissza" hidden>←</a>
+    <a class="marka" href="#">Kyokushin Karate</a>
+    <button id="menu-gomb" class="kor-gomb" aria-label="Menü" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </button>
+  </header>
+
+  <div id="menu-hatter"></div>
+  <nav id="menu" aria-label="Főmenü">
+    <div class="menu-cim">Menü</div>
+    <div id="menu-lista"></div>
+  </nav>
+
+  <main id="tartalom"></main>
+  <div id="uzenet" role="status" aria-live="polite"></div>
+
+  <script src="js/adatok.js"></script>
+  <script src="js/egyesulet.js"></script>
+  <script src="js/media.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
